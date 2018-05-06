@@ -1,0 +1,33 @@
+﻿Build started 01-Sep-15 3:52:41 PM.
+     1>Project "F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Hollow\Hollow.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt aes.c HollowMain.c
+         HollowMain.c
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(33): warning C4133: 'function': incompatible types - from 'int [16]' to 'const uint8_t *'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(36): warning C4018: '>': signed/unsigned mismatch
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(39): warning C4133: 'function': incompatible types - from 'int [16]' to 'const uint8_t *'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(46): warning C4101: 'bytes_read': unreferenced local variable
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(103): warning C4133: 'function': incompatible types - from 'STARTUPINFOA *' to 'LPSTARTUPINFOW'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(70): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(73): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(76): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(78): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>f:\cert\jashnvare\festival94\round1\reverse\9-hollow\hollow\hollow\hollowmain.c(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+         aes.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Debug\HollowMain.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Debug\HollowMain.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Debug\HollowMain.lib" /MACHINE:X86 Debug\aes.obj
+         Debug\HollowMain.obj
+         Hollow.vcxproj -> F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Debug\HollowMain.exe
+     1>Done Building Project "F:\CERT\Jashnvare\Festival94\Round1\Reverse\9-Hollow\Hollow\Hollow\Hollow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.26
